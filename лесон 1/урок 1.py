@@ -1,5 +1,5 @@
 import requests
-
+import json
 url = "https://www.google.ru"
 
 respons = requests.get(url)
@@ -15,7 +15,7 @@ print(respons.url)
 # e5e4cd692a72b0b66ea0a6b80255d1c3
 # api.openweathermap.org/data/2.5/weather?q={city name}&appid=e5e4cd692a72b0b66ea0a6b80255d1c3
 
-import json
+
 
 
 
